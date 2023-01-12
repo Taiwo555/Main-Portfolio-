@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #162136;
+}
+.container h1{
+    color: red;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 10rem;
+    color: transparent;
+    -webkit-text-stroke: 1px red;
+    padding: 10px;
+}
+.container h1 span{
+    color: white;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.btn a button{
+    margin: auto;
+    border-radius: 50em;
+    background-color: #fff;
+    width: 10em;
+    height: 4em;
+    font-size: 1em;
+    cursor: pointer;
+}
+.about-con{
+     background: gainsboro;
+    width: 700px;
+    height: 270px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10%;
+ }
+ /* .linE{
+    width: 150px;
+    height: 4px;
+    background-color: #00986f;
+    margin: auto;
+ }
+ .linE2{
+    width: 50px;
+    height: 4px;
+    background-color: #00986f;
+    margin: auto;
+ } */
+h3{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 3rem;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(36, 123, 52);
+}
+.about-con p{
+    margin-top: 35px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    line-height: 24px;
+}
+
+.skill-con{
+    background: gainsboro;
+    width: 700px;
+    height: 370px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10%;
+}
+ .line{
+    width: 250px;
+    height: 15px;
+    background: #fff;
+    margin: 0 20px;
+    border-radius: 2px;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-left: 35%;
+}
+ .line span{
+    width: 80%;
+    height: 18px;
+    margin-top: -2px;
+    border-radius: 4px;
+    background: #00986f;
+    display: block;
+ }
+ .line2{
+    width: 250px;
+    height: 15px;
+    background: #fff;
+    margin: 0 20px;
+    border-radius: 2px;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-left: 35%;
+}
+ .line2 span{
+    width: 77%;
+    height: 18px;
+    margin-top: -2px;
+    border-radius: 4px;
+    background: #00986f;
+    display: block;
+ }
+
+ .line3{
+    width: 250px;
+    height: 15px;
+    background: #fff;
+    margin: 0 20px;
+    border-radius: 2px;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-left: 35%;
+}
+ .line3 span{
+    width: 70%;
+    height: 18px;
+    margin-top: -2px;
+    border-radius: 4px;
+    background: #00986f;
+    display: block;
+ }
+ .line4{
+    width: 250px;
+    height: 15px;
+    background: #fff;
+    margin: 0 20px;
+    border-radius: 2px;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-left: 35%;
+}
+ .line4 span{
+    width: 75%;
+    height: 18px;
+    margin-top: -2px;
+    border-radius: 4px;
+    background: #00986f;
+    display: block;
+ }
+
+ .skill-con p{
+    margin-left: 0.8rem;
+    margin-top: 15px;
+    text-align: center;
+ }
+ .project-con{
+    background: gainsboro;
+    width: 700px;
+    height: 440px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10%;
+ }
+ .project-con img{
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+ }
+.mail-con{
+    background: gainsboro;
+    width: 400px;
+    height: 150px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10%;
+}
+.mail-con p{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 10px;
+}
+.mail-con button{
+    width: 150px;
+    height: 50px;
+    margin-left: 120px;
+    background: #00986f;
+    border: 0;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.space{
+    padding: 20px;
+}
+.space1{
+    padding: 20px;
+}
+.foterr{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+@media(max-width: 850px){
+    .about-con{
+        width: 300px;
+        height: 370px;
+        border-radius: 10px;
+    }
+    .btn button{
+        margin-bottom: 30px;
+    }
+    .skill-con{
+        width: 300px;
+        height: 370px;
+        border-radius: 10px;
+    }
+    .line{
+        margin-left: 10%;
+    }
+    .line2{
+        margin-left: 10%;
+    }
+    .line3{
+        margin-left: 10%;
+    }
+    .line4{
+        margin-left: 10%;
+    }
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+    .project-con{
+        width: 300px;
+        height: 215px;
+        border-radius: 10px;
+    }
+    .project-con img{
+        width: 100px;
+        margin-left: 20px;
+        margin-top: 20px;
+     }
+     .mail-con{
+        width: 250px;
+        height: 150px;
+        border-radius: 10px;
+     }
+     .mail-con a button{
+        width: 150px;
+        border-radius: 20px;
+        margin-left: 50px;
+        margin-top: 20px;        
+     }
+     h3{
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 2rem;
+        color: transparent;
+        -webkit-text-stroke: 1px rgb(36, 123, 52);
+    }
+     .foterr{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        margin-top: 30px;
+    }
+    .foterr h1{
+        font-size: 1rem;
+    }
+}
