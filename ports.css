@@ -204,7 +204,7 @@ h3{
 .space1{
     padding: 20px;
 }
-.foterr{
+.footer{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -273,7 +273,7 @@ h3{
         color: transparent;
         -webkit-text-stroke: 1px rgb(36, 123, 52);
     }
-     .foterr{
+     .footer{
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -282,7 +282,7 @@ h3{
         background-color: #fff;
         margin-top: 30px;
     }
-    .foterr h1{
+    .footer h1{
         font-size: 1rem;
     }
 }
